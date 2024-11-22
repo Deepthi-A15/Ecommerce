@@ -1,0 +1,43 @@
+/*fonts styling*/
+@import url('https://fonts.googleapis.com/css2?family=montserrat&display=swap');
+/*css default format setting*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat',sans-serif;
+	scroll-behavior: smooth;
+}
+.bg-light-gray{
+	background-color: rgb(241,240,240);
+}
+.section_title h1{
+	text-decoration: underline;
+
+}
+/*for cart logo hover effect*/
+.cart a{
+	text-decoration: none;
+	list-style: none;
+}
+.cart a:hover{
+	text-decoration: none;
+	list-style: none;
+}
+.bg_cart_1{
+	background-color: #8EC5FC;
+	background-image: linear-gardient(62deg,#8EC5FC 0%,#E0C3FC 100%);
+}
+.list-group-item{
+	background-color: inherit !important;
+}
+/*for services section background gradient*/
+.feature{
+	background-color: rgb(0,121,230);
+	background: linear-gradient(0deg,rgba(0,121,230,1) 0%,rgba(0,250,255,1) 90%);
+}
+/*footer section*/
+.footer_section{
+	border-top: 3px solid #007BFF;
+	border-radius: 10px;
+}
